@@ -6,12 +6,12 @@
 version: 2
 updates:
   - package-ecosystem: "nuget" 
-    directory: "/" # Location of package manifests
+    directory: "/MyWebApp/MyWebApp.Web" # Location of package manifests
     schedule:
       interval: "daily"
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/MyWebApp/MyWebApp.Web"
     schedule:
       interval: "daily"
